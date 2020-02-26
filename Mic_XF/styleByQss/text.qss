@@ -1,0 +1,95 @@
+QWidget#right_Widget{
+    background-color:#16181C;
+}
+QFrame#right_line{
+    color:#2D2F32;
+}
+QLabel#loc_File_label{
+    color:#F8F8F2;
+    font-family:"Microsoft YaHei";
+    font-size:18px;
+    background-color:#16181C;
+}
+QTableWidget {
+    background: #16181C;
+    alternate-background-color: #1A1C20;
+    border: none;
+    color: #DCDDE4;
+}
+
+QTableWidget::item {
+    border: none;
+    outline: none;
+    outline-style: none;
+}
+
+QTableWidget::item:hover {
+    background: #313337;
+}
+
+QTableWidget::item:selected {
+    background: #313337;
+    border: none;
+    color:#E83C3C;
+}
+
+QAbstractItemView {
+    outline: none;
+}
+
+
+QHeaderView::section {
+    background-color: #16181C;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-right: 1px solid #23262C;
+}
+
+QHeaderView::section:hover {
+    background-color: #232529;
+}
+
+QScrollBar:vertical{
+    background: #191B1F;
+    width: 7px;
+    margin: 0px 0 0px 0;
+}
+
+QScrollBar::handle:vertical{
+    background: #2F3134;
+    min-height: 20px;
+    margin: 0 0 0 0;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::handle:hover{
+    background: #3B3C40;
+    min-height: 20px;
+    margin: 0 0 0 0;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical{
+    background: #191B1F;
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical{
+    background: #191B1F;
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical{
+    background: none;
+}
+
+QScrollBar:horizontal {
+    height: 0px;
+}

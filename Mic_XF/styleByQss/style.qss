@@ -1,0 +1,182 @@
+QWidget#FatherWindow{
+    background-color:#232326;
+}
+QPushButton#btn_close,QPushButton#btn_min{
+    color: #828487;
+    font-size:25px;
+    border: none;
+}
+
+QPushButton#btn_close::hover,QPushButton#btn_min::hover{
+    color: white;
+}
+
+QLineEdit#LineEdit{
+    color:pink;
+    background-color: #191B1F;
+    font-size:13px;
+    font-family:"Microsoft YaHei";
+    border-radius: 10px;
+}
+
+
+QLabel{
+    color:white;
+    font-size:13px;
+    font-family:"Microsoft YaHei";
+}
+QLabel#music_text_label{
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+    font-family:"Microsoft YaHei";
+}
+
+QLabel#time_label{
+    color:white;
+    font-size:12px;
+    font-family:"Microsoft YaHei";
+}
+
+QLabel#loc_File_label{
+    color:#F8F8F2;
+    font-family:"Microsoft YaHei";
+    font-size:18px;
+}
+
+QListWidget {
+    background: #191B1F;
+    border: 0px;
+    outline: none;
+
+}
+QListWidget#left_header_List::item, QListWidget#left_mid_List::item {
+    height: 32px;
+    padding-left: 10px;
+    border-left: 3px solid #191B1F;
+    outline: none;
+    background: none;
+    color: #A3A5A8;
+    text-align: center;
+}
+
+QListWidget#left_header_List::item:hover, QListWidget#left_mid_List::item:hover {
+    color: #DCDDE3;
+}
+
+QListWidget#left_header_List::item:selected, QListWidget#left_mid_List::item:selected {
+    /*background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.0213636 rgba(38, 40, 44, 255));*/
+    border-left: 3px solid #B82525;
+    background: #26282C;
+    color: #DCDDE3;
+}
+QFrame#header_line{
+    color:#891212;
+}
+
+QPushButton#btn_play{
+    border: none;
+    background-image:url('resource/play.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_play::hover{
+    border: none;
+    background-image:url('resource/play_hover.png');
+    background-repeat:no-repeat;
+}
+
+QPushButton#btn_pause{
+    border: none;
+    background-image:url('resource/pause.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_pause::hover{
+    border: none;
+    background-image:url('resource/pause_hover.png');
+    background-repeat:no-repeat;
+}
+
+QPushButton#btn_last{
+    border: none;
+    background-image:url('resource/previous.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_last::hover{
+    border: none;
+    background-image:url('resource/previous_hover.png');
+    background-repeat:no-repeat;
+}
+
+QPushButton#btn_next{
+    border: none;
+    background-image:url('resource/next.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_next::hover{
+    border: none;
+    background-image:url('resource/next_hover.png');
+    background-repeat:no-repeat;
+}
+
+QPushButton#btn_volume{
+    border: none;
+    background-image:url('resource/volume.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_volume::hover{
+    border: none;
+    background-image:url('resource/volume_hover.png');
+    background-repeat:no-repeat;
+}
+
+QSlider#time_slider::groove:horizontal {
+    height: 4px;
+    width: 440px;
+    border: 1px solid #222225;
+    border-radius: 2px;
+    background: #18181A;
+}
+
+QSlider#time_slider::handle:horizontal {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.159, fx:0.5, fy:0.5, stop:0.806818 rgba(184, 37, 37, 255), stop:1 rgba(255, 255, 255, 255));
+    width: 14px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 7.4px;
+}
+
+QSlider#time_slider::handle:horizontal:hover {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.862, fx:0.5, fy:0.5, stop:0.1009091 rgba(188, 49, 49, 255), stop:0.107955 rgba(188, 49, 49, 255), stop:0.119318 rgba(196, 79, 79, 255), stop:0.130682 rgba(255, 222, 119, 255), stop:0.920904 rgba(235, 235, 235, 255), stop:0.99435 rgba(255, 255, 255, 255));
+}
+
+QSlider#time_slider::sub-page:horizontal{
+    border: 1px solid #222225;
+    border-radius: 2px;
+    background: #B82525;
+}
+
+QSlider#volumeSlider::groove:horizontal {
+    height: 4px;
+    width: 80px;
+    border: 1px solid #222225;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 2px;
+    background: #18181A;
+}
+
+QSlider#volumeSlider::handle:horizontal {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.159, fx:0.5, fy:0.5, stop:0.806818 rgba(184, 37, 37, 255), stop:1 rgba(255, 255, 255, 255));
+    width: 14px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 7.4px;
+}
+
+QSlider#volumeSlider::sub-page:horizontal{
+    border: 1px solid #222225;
+    border-radius: 2px;
+    background: #B82525;
+}
+
+

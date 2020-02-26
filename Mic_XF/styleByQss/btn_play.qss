@@ -1,0 +1,21 @@
+QPushButton#btn_play{
+    border: none;
+    background-image:url('resource/play.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_play::hover{
+    border: none;
+    background-image:url('resource/play_hover.png');
+    background-repeat:no-repeat;
+}
+
+QPushButton#btn_pause{
+    border: none;
+    background-image:url('resource/pause.png');
+    background-repeat:no-repeat;
+}
+QPushButton#btn_pause::hover{
+    border: none;
+    background-image:url('resource/pause_hover.png');
+    background-repeat:no-repeat;
+}
